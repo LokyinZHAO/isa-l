@@ -1,1 +1,0 @@
-/home/runner/work/isa-l/.codeql-scratch/dbs/cpp/working/autobuild/bin/cc  -Dx86_64 -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/igzip_build_hash_table_perf.dir/link.d CMakeFiles/igzip_build_hash_table_perf.dir/igzip/igzip_build_hash_table_perf.c.o -o igzip_build_hash_table_perf  -Wl,-rpath,/home/runner/work/isa-l/isa-l/_codeql_build_dir libisal.so.2.31.0

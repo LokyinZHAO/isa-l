@@ -1,1 +1,0 @@
-/home/runner/work/isa-l/.codeql-scratch/dbs/cpp/working/autobuild/bin/cc  -Dx86_64 -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/adler32_perf.dir/link.d CMakeFiles/adler32_perf.dir/igzip/adler32_perf.c.o -o adler32_perf  -Wl,-rpath,/home/runner/work/isa-l/isa-l/_codeql_build_dir libisal.so.2.31.0

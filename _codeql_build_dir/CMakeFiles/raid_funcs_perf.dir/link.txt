@@ -1,1 +1,0 @@
-/home/runner/work/isa-l/.codeql-scratch/dbs/cpp/working/autobuild/bin/cc  -Dx86_64 -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/raid_funcs_perf.dir/link.d CMakeFiles/raid_funcs_perf.dir/raid/raid_funcs_perf.c.o -o raid_funcs_perf  -Wl,-rpath,/home/runner/work/isa-l/isa-l/_codeql_build_dir libisal.so.2.31.0

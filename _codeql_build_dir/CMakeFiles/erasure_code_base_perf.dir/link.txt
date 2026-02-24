@@ -1,1 +1,0 @@
-/home/runner/work/isa-l/.codeql-scratch/dbs/cpp/working/autobuild/bin/cc  -Dx86_64 -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/erasure_code_base_perf.dir/link.d CMakeFiles/erasure_code_base_perf.dir/erasure_code/erasure_code_base_perf.c.o -o erasure_code_base_perf  -Wl,-rpath,/home/runner/work/isa-l/isa-l/_codeql_build_dir libisal.so.2.31.0
