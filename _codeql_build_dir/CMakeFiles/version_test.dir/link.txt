@@ -1,0 +1,1 @@
+/home/runner/work/isa-l/.codeql-scratch/dbs/cpp/working/autobuild/bin/cc  -Dx86_64 -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/version_test.dir/link.d CMakeFiles/version_test.dir/misc/version_test.c.o -o version_test  -Wl,-rpath,/home/runner/work/isa-l/isa-l/_codeql_build_dir libisal.so.2.31.0

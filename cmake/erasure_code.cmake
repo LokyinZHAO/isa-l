@@ -91,6 +91,8 @@ set(ERASURE_CODE_X86_64_SOURCES
     erasure_code/gf_vect_dot_prod_avx2_gfni.asm
     erasure_code/gf_2vect_dot_prod_avx2_gfni.asm
     erasure_code/gf_3vect_dot_prod_avx2_gfni.asm
+    erasure_code/gf_4vect_dot_prod_avx2_gfni.asm
+    erasure_code/gf_5vect_dot_prod_avx2_gfni.asm
     erasure_code/gf_2vect_dot_prod_avx512_gfni.asm
     erasure_code/gf_3vect_dot_prod_avx512_gfni.asm
     erasure_code/gf_4vect_dot_prod_avx512_gfni.asm
@@ -209,6 +211,7 @@ if(ISAL_BUILD_TESTS)
         gf_vect_dot_prod_test
         gf_vect_mad_test
         erasure_code_base_test
+        gf_4vect_dot_prod_avx2_gfni_test
     )
 
     # Other tests

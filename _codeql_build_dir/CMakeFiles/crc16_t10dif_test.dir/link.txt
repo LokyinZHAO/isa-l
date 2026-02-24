@@ -1,0 +1,1 @@
+/home/runner/work/isa-l/.codeql-scratch/dbs/cpp/working/autobuild/bin/cc  -Dx86_64 -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/crc16_t10dif_test.dir/link.d CMakeFiles/crc16_t10dif_test.dir/crc/crc16_t10dif_test.c.o -o crc16_t10dif_test  -Wl,-rpath,/home/runner/work/isa-l/isa-l/_codeql_build_dir libisal.so.2.31.0

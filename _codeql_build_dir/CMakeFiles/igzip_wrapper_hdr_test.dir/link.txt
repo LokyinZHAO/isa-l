@@ -1,0 +1,1 @@
+/home/runner/work/isa-l/.codeql-scratch/dbs/cpp/working/autobuild/bin/cc  -Dx86_64 -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/igzip_wrapper_hdr_test.dir/link.d CMakeFiles/igzip_wrapper_hdr_test.dir/igzip/igzip_wrapper_hdr_test.c.o -o igzip_wrapper_hdr_test  -Wl,-rpath,/home/runner/work/isa-l/isa-l/_codeql_build_dir libisal.so.2.31.0
