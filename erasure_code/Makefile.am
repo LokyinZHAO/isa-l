@@ -94,6 +94,8 @@ lsrc_x86_64  += \
 		erasure_code/gf_vect_dot_prod_avx2_gfni.asm \
 		erasure_code/gf_2vect_dot_prod_avx2_gfni.asm \
 		erasure_code/gf_3vect_dot_prod_avx2_gfni.asm \
+		erasure_code/gf_4vect_dot_prod_avx2_gfni.asm \
+		erasure_code/gf_5vect_dot_prod_avx2_gfni.asm \
 		erasure_code/gf_2vect_dot_prod_avx512_gfni.asm \
 		erasure_code/gf_3vect_dot_prod_avx512_gfni.asm \
 		erasure_code/gf_4vect_dot_prod_avx512_gfni.asm \
@@ -130,7 +132,8 @@ unit_tests   += \
 		erasure_code/gf_vect_dot_prod_base_test \
 		erasure_code/gf_vect_dot_prod_test \
 		erasure_code/gf_vect_mad_test \
-		erasure_code/erasure_code_base_test
+		erasure_code/erasure_code_base_test \
+		erasure_code/gf_4vect_dot_prod_avx2_gfni_test
 
 perf_tests   += erasure_code/gf_vect_mul_perf \
 		erasure_code/gf_vect_dot_prod_perf \
